@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body,
+html {
+  height: 100%;
+  font-size: 20px; 
+  font-family: "Comfortaa", cursive;
+  line-height: 1.5em; 
+  margin: 0em;
+  background-color: #FFFFFF; 
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  color: #2f2a2a;
+  text-align: center;
+}
+
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  color: #FFFFF;
+  text-align: center;
+  line-height: 1.3em;
+}
+p {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  color: #2f2a2a;
+}
+
+
+p a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2f2a2a;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: left;
+  font-size: 15px;
+}
+
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: #636162;
+  color: #fa9f6b;
+}
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.flex-container {
+  display: flex; /* Set the flexbox display */
+  flex-direction: column;
+  flex-wrap: wrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+  padding: 0px;
+  position: absolute;
+
+}
+#home{
+   left: 0%;
+  right: 55%;
+}
+#flex-newsfeed {
+  left: 0%;
+  right: 50%;
+}
+#twitter-feed{
+  left:60%;
+  right:5%;
+  max-height: 1000px;
+  max-width:600px;
+  overflow-y: scroll;
+  margin: 0px;
+}
+#twitter-feed-child{
+  height: 800px;
+  width: 510px;
+}
+
+#UN{
+  left: 55%;
+  right: 0%;
+}
+#Unicef{
+  left: 0%;
+  right: 55%;
+}
+#WHO{
+  left: 0%;
+  right: 55%;
+  top:70%;
+}
+#CDC
+{
+  left:55%;
+  right: 0%;
+  top:70%;
+}
+
+/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+.heading-home {
+  padding: 5%;
+  font-size: 75px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 6px;
+  word-spacing: 11px;
+  color: #FFFFFF;
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+.intro-text {
+  padding: 2%;
+  margin: 2.5%;
+  color: #FFFFFF; 
+  font-size: 30px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.5em; /* Adds space between lines */
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+.button {
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: #e8444c;
+  height: 60px;
+  width: 250px;
+  font-size: 25px;
+  font-family: ;
+  color: #FFFFFF;
+  margin: 6%;
+  padding: 2%;
+  box-shadow: -4px 2px 1px orange;
+}
+a:link {
+  text-decoration: none;
+  
+}
+ul.bullets {
+  list-style-type: circle;
+  font-family: "Comfortaa", cursive;
+  color: #2f2a2a;
+  background-color: #FFFFFF;
+}
+ul.bullets li {
+   margin-bottom: 1em;
+}
+
+/************************************************/
+/*************** PARALLAX SCROLL ****************/
+/************************************************/
+
+/*-----------TEXT SECTIONS-----------*/
+
+/* TODO (optional): Change the background color and/or text alignment */
+
+#our-goal{
+  letter-spacing: 3px;
+  font-size: 70px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin-top: 1em;
+  color: #fa9f6b;
+}
+
+.text-section {
+  background-color: #303030;
+  padding: 10px 12px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+/* TODO: Add the CSS selector for each image to the collective image rule set */
+
+.main-message,
+.image-one,
+.image-two {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   /* This adjusts the height of the image */
+  background-attachement: fixed;
+}
+
+.main-message {
+  background-image: url("https://ewscripps.brightspotcdn.com/dims4/default/7671677/2147483647/strip/true/crop/1303x733+15+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F0a%2Ff2%2F72b1b4d94794992a0772cb593ce5%2Fscreen-shot-2020-02-25-at-10.49.27%20AM.png");
+  min-height: 90%;
+}
+.image-one {
+  background-image: url("https://cdn.glitch.com/e82a1324-231e-4b4b-af84-4619b50309fa%2F200310_vod_orig_coronavirus_explainer_hpMain_16x9_992.jpg?v=1594954826489");
+  min-height:70%;
+}
+.image-two {
+  background-image: url("https://api.time.com/wp-content/uploads/2020/04/CoronavirusFAQOpener.jpg?quality=85&w=1024&h=512&crop=1");
+min-height: 43.5%;
+}
+
+/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+
+/* TODO: Add more background images by repeating the process above */
+
+/*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
+.attributions {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+  font-family: "Comfortaa", cursive;
+  color: #FFFFFF;
+}
+
+/******************************************************/
+/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
+/******************************************************/
+
+/* TODO: Add a breakpoint if the screen is 700px or less */
+@media screen and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+.charity {
+  border-color: #7a000f;
+  border-radius: 25px;
+  border-style: double;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+h3 {
+  color: #491514;
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* TODO: Add additional breakpoints based on your website's design*/

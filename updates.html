@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TODO: Update the heading with the name of your website -->
+    <title>Newsfeed</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/take-action.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="facts.html">Facts</a></li>
+        <li class="nav"><a href="precautions.html">Precautions</a></li>
+        <li class="nav"><a href="updates.html">Updates</a></li>
+        <li class="nav"><a href="donate.html">Charities</a></li>
+        <li class="nav"><a href="take-action.html">Take Action!</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-header-action">
+      <h1>What's New?</h1>
+      <p>
+        Click the title of any of the articles below to read more about it!
+      </p>
+    </div>
+    <div class = "flex-container" id="flex-newsfeed">
+      <script
+        type="text/javascript"
+        language="javascript"
+        src="https://www.rssdog.com/index.php?url=http%3A%2F%2Frss.cnn.com%2Frss%2Fcnn_health.rss&amp;mode=javascript&amp;showonly=Covid-19&amp;maxitems=0&amp;showdescs=1&amp;desctrim=0&amp;descmax=0&amp;tabwidth=90%25&amp;excltitle=1&amp;showdate=1&amp;linktarget=_blank&amp;bordercol=%23ffffff&amp;headbgcol=%23ffffff&amp;headtxtcol=%23ffffff&amp;titlebgcol=%23f1eded&amp;titletxtcol=%23000000&amp;itembgcol=%23ffffff&amp;itemtxtcol=%23000000&amp;ctl=0"
+      ></script>
+      <noscript>
+        You apparently do not have JavaScript enabled on your browser lest you
+        would be viewing an RSS Feed here from
+        <a href="http://www.rssdog.com/">RSS Dog</a>
+      </noscript>
+    </div>
+
+    <div class = "flex-container" id ="twitter-feed">
+      <div id = "twitter-feed-child">
+      <a
+        class="twitter-timeline"
+        href="https://twitter.com/CDCgov?ref_src=twsrc%5Etfw"
+         data-tweet-limit="10"
+        >Tweets by CDCgov</a
+      >
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script> 
+      </div>
+    </div>
+  </body>
+</html>
