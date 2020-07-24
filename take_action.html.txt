@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TODO: Update the heading with the name of your website -->
+    <title>Action Checklist</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/checklist.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- TODO: Add any links to Google font families here -->
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="facts.html">Facts</a></li>
+        <li class="nav"><a href="precautions.html">Precautions</a></li>
+        <li class="nav"><a href="updates.html">Updates</a></li>
+        <li class="nav"><a href="donate.html">Charities</a></li>
+        <li class="nav"><a href="take-action.html">Take Action!</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-header-action">
+      <h1>What YOU can do!</h1>
+    </div>
+
+    <!------------------------------->
+    <!--------FLEX CONTAINER--------->
+    <!------------------------------->
+    <!-- TODO: Create a flex container with the class "flex-container-action" to hold the description of your action and your check list -->
+    <div class="flex-container-action">
+      <div class="action-info-container">
+        <p>
+          Help others out during these unprecedented times! Keep up with social
+          distancing, donate to charities, advocate for effective legislation to
+          your local government, and educate others around you and through
+          social media about how to slow the spread!
+        </p>
+        <img
+          src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/coronavirus-impact-1584983225.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+          alt=""
+        />
+      </div>
+      
+      <div class="action-list-container" id="checklist">
+      <h1 id ="checklist-header">
+        Action Checklist
+        </h1>
+        
+          <ul id="my-list">
+            <li class ="action-li">
+            Step 1: Read and understand the safety guidelines especially those in your specific location
+            </li>
+            <li class ="action-li">
+            Step 2: Abide by all the guidelines and encourage others around you to do so as well 
+            </li>
+            <li class ="action-li">
+            Step 3: Look into which charities you want to donate to
+            </li>
+            <li class ="action-li">
+            Step 4: Donate!
+            </li>
+            <li class="action-li">
+            Step 5: Keep up to date with the news about COVID-19
+            </li>
+        </ul>
+     
+      </div>
+    </div>
+    <!-- TODO: Inside the flex containter, add a flex item with the class "action-info-container" to hold your description-->
+    <!-- TODO: Inside the flex containter, add a flex item with class "action-list-container" and the id "checklist" to hold your checklist -->
+  </body>
+</html>

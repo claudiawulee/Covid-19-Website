@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Charities</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/take-action.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="facts.html">Facts</a></li>
+        <li class="nav"><a href="precautions.html">Precautions</a></li>
+        <li class="nav"><a href="updates.html">Updates</a></li>
+        <li class="nav"><a href="donate.html">Charities</a></li>
+        <li class="nav"><a href="take-action.html">Take Action!</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-header-action">
+      <h1>Charities</h1>
+      <p>
+        Click any of the boxes below to be directed to the charity's website!
+      </p>
+    </div>
+
+    <div class="flex-container" id="Unicef">
+      <div class="charity">
+        <a href="https://www.unicef.org/coronavirus/covid-19/donate">
+          <h3>
+            Unicef
+          </h3>
+          <p>
+            Unicef uses donations to deliver life-saving medicine, food, and
+            vaccines to vulnerable children. In addition, they provide essential
+            supplies such as gloves, masks, and access to clean drinking water
+            to families.
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex-container" id="UN">
+      <div class="charity">
+        <a href="https://bit.ly/donateUNcovid19">
+          <h3>
+            United Nations
+          </h3>
+          <p>
+            Donations are used to support organizations under the World Health
+            Organization in order to research more into the virus and future
+            vaccines and treatments. Moreover, they deliver essential supplies
+            to patients and frontline workers.
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="flex-container" id="WHO">
+      <div class="charity">
+        <a href="http://bit.ly/donateWHO">
+          <h3>
+            World Health Organization
+          </h3>
+          <p>
+            WHO is coordinating the global effort in order to help countries
+            with prevention, detection, and response to the pandemic. Donations
+            help with getting supplies, researching, and saving lives.
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex-container" id="CDC">
+      <div class="charity">
+        <a
+          href="https://give4cdcf.org/?utm_source=CDCF&utm_medium=web&utm_campaign=combat-coronavirus"
+        >
+          <h3>
+            CDC Foundation
+          </h3>
+          <p>
+            The CDC Foundation raises funds through their Emergency Response
+            Fund which is used to fund state and local health departments,
+            support for the global response, data
+            management, personal protective equipment, critical response
+            supplies and more. 
+          </p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
