@@ -4,7 +4,7 @@
 
 .page-header-action {
   width: 100%;
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
 }
 
