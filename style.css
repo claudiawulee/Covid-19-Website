@@ -113,6 +113,14 @@ li.nav a:hover {
   height: 800px;
   width: 510px;
 }
+.squareimage{
+  width: 230px;
+  height:230px;
+}
+.rectangleimage{
+  width: 460px;
+  height:230px;
+}
 
 #UN{
   left: 55%;
@@ -122,9 +130,6 @@ li.nav a:hover {
   left: 0%;
   right: 55%;
 }
-.imagesize{
-  width: 230px;
-  height:230px;
 }
 #WHO{
   left: 0%;
