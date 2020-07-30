@@ -113,12 +113,8 @@ li.nav a:hover {
   height: 800px;
   width: 510px;
 }
-.squareimage{
+#UN, #Unicef, #CDC {
   width: 230px;
-  height:230px;
-}
-.rectangleimage{
-  width: 460px;
   height:230px;
 }
 
@@ -130,11 +126,12 @@ li.nav a:hover {
   left: 0%;
   right: 55%;
 }
-}
 #WHO{
   left: 0%;
   right: 55%;
   top:70%;
+  width: 460px;
+  height:230px;
 }
 #CDC
 {
