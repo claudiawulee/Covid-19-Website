@@ -113,10 +113,12 @@ li.nav a:hover {
   height: 800px;
   width: 510px;
 }
-#UN, #Unicef, #CDC, #WHO img{
-  width: 230px;
-  height:230px;
-  object-fit: cover;
+.charity img{
+  width: inherit;
+  height:inherit;
+  max-width: 250px;
+  max-height:250px;
+  text-align: center;
 }
 
 #UN{
@@ -130,13 +132,13 @@ li.nav a:hover {
 #WHO{
   left: 0%;
   right: 55%;
-  top:70%;
+  top:90%;
 }
 #CDC
 {
   left:55%;
   right: 0%;
-  top:70%;
+  top:95%;
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
@@ -203,9 +205,6 @@ ul.bullets li {
 /*************** PARALLAX SCROLL ****************/
 /************************************************/
 
-/*-----------TEXT SECTIONS-----------*/
-
-/* TODO (optional): Change the background color and/or text alignment */
 
 #our-goal{
   letter-spacing: 3px;
@@ -253,12 +252,6 @@ ul.bullets li {
   background-image: url("https://api.time.com/wp-content/uploads/2020/04/CoronavirusFAQOpener.jpg?quality=85&w=1024&h=512&crop=1");
 min-height: 43.5%;
 }
-
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-
-/* TODO: Add more background images by repeating the process above */
-
-/*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
   font-size: 12px;
   text-align: right;
@@ -267,11 +260,6 @@ min-height: 43.5%;
   color: #FFFFFF;
 }
 
-/******************************************************/
-/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
-/******************************************************/
-
-/* TODO: Add a breakpoint if the screen is 700px or less */
 @media screen and (max-width: 700px) {
   .flex-container {
     flex-wrap: wrap;
@@ -284,6 +272,7 @@ min-height: 43.5%;
   border-style: double;
   padding-left: 25px;
   padding-right: 25px;
+   text-align: center;
 }
 h3 {
   color: #491514;
@@ -291,5 +280,3 @@ h3 {
   font-size: 25px;
   text-align: center;
 }
-
-/* TODO: Add additional breakpoints based on your website's design*/
