@@ -116,8 +116,8 @@ li.nav a:hover {
 .charity img{
   width: inherit;
   height:inherit;
-  max-width: 250px;
-  max-height:250px;
+  max-width: 225px;
+  max-height:225px;
   text-align: center;
   position: relative;
 }
@@ -141,7 +141,10 @@ li.nav a:hover {
   right: 0%;
   top:110%;
 }
-
+#UN, #Unicef, #WHO, #CDC {
+  height: 382px;
+  width: 582px;
+}
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 5%;
