@@ -133,13 +133,13 @@ li.nav a:hover {
 #WHO{
   left: 0%;
   right: 55%;
-  top:100%;
+  top:110%;
 }
 #CDC
 {
   left:55%;
   right: 0%;
-  top:100%;
+  top:110%;
 }
 
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
